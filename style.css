@@ -1,0 +1,38 @@
+html{
+    background: linear-gradient(270deg, #251b23, #3c3e96, #2db48c)
+}
+
+.grid {
+   
+    display:grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(5, 100px); 
+     
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.grid-item {
+    place-items: center;
+    border:1px solid white;
+    color: white; 
+    padding: 50px; 
+    
+    
+}
+#thirteen{
+    background-color: white;
+}
+#eighteen{
+    background-color: white;
+}
+#twentythree{
+    background-color: white;
+}
+#twentytwo{
+    background-color: white;
+}
+#twentyfour{
+    background-color: white;
+}
